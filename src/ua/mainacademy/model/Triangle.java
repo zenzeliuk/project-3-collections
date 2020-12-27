@@ -32,10 +32,4 @@ public class Triangle implements Shape {
     public double getArea() {
         return (base * height) / 2;
     }
-
-    @Override
-    public int compareTo(Object o) {
-        Shape obj = (Shape) o;
-        return Double.compare(this.getArea(), obj.getArea());
-    }
 }

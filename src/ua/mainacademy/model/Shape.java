@@ -1,5 +1,5 @@
 package ua.mainacademy.model;
 
-public interface Shape extends Comparable{
+public interface Shape {
     double getArea();
 }

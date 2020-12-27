@@ -22,10 +22,4 @@ public class Circle implements Shape {
     public double getArea() {
         return Math.PI * radius * radius;
     }
-
-    @Override
-    public int compareTo(Object o) {
-        Shape obj = (Shape) o;
-        return Double.compare(this.getArea(), obj.getArea());
-    }
 }
