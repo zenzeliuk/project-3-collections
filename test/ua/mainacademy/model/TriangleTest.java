@@ -4,11 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CircleTest {
+class TriangleTest {
 
     @Test
     void getArea() {
-        Circle circle = new Circle(10);
-        assertEquals(Math.PI * 10 * 10, circle.getArea());
+        Triangle triangle = new Triangle(1, 5);
+        double d = (1.0 * 5.0) / 2;
+        assertEquals(d, triangle.getArea());
     }
 }
